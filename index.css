@@ -1,0 +1,72 @@
+/* 基本样式设置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Songti SC", serif;
+  background-color: #f0eade;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background-color: #134857;
+  text-align: center;
+  padding: 1rem;
+}
+.footer {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+
+.header h1,
+.footer p {
+  color: #fff;
+}
+
+.header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.header nav ul li {
+  margin: 0 1rem;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.content section {
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content section h2 {
+  margin-bottom: 1rem;
+}
