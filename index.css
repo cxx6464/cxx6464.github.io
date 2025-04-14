@@ -23,7 +23,7 @@ body {
   padding: 1rem;
 }
 .footer {
-  position: absolute;
+  position: sticky;
   width: 100vw;
   bottom: 0;
 }
@@ -69,4 +69,20 @@ body {
 
 .content section h2 {
   margin-bottom: 1rem;
+}
+aside {
+  position: absolute;
+  background-color: #fff;
+}
+.clock {
+  display: flex;
+  width: 10em;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0.5em auto; */
+}
+.clock div {
+  /* background-color: #134857; */
+  margin: 1em;
 }
